@@ -218,8 +218,8 @@ for k in range(rows_docs):
 	listINNER = []
 	s=s+1
 	
-	My_url = 'http://olympus.soberana.lan/Olympus/api/siesa/importar/rstOly_sob_aba_sie_pedInterno'
-	My_auth = HTTPBasicAuth('dpto_abastecimiento', 'SobAba2019')
+	My_url = 'http://olympus.web.lan/Olympus/api/siesa/importar/rstOly_sob_aba_sie_pedInterno'
+	My_auth = HTTPBasicAuth('dpto_user', 'pass2019')
 
 	r = requests.post( url = My_url, data = data, auth = My_auth)
 	#print(r.text)
