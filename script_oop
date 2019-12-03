@@ -1,3 +1,4 @@
+```python
 '''The main purpose of the code here presented and thereby executed and used by me is to extract data from an excel file, 
 perform some transformations, control the output, then parsing the data into a JSON structure to finally send a POST request 
 to an HTML service'''
@@ -260,3 +261,4 @@ response = PostThisShit(Documents, Movements)
 
 windowOne = MsgWindow(("Helvetica Narrow", 14)) # I think this was called: Instanciating an Object?.. Something like that. (It receives a tuple with the font parameters).
 windowOne.popupMsg(" You're all set ;) " + "\n" + response) #Thank you very much!
+```
