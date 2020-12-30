@@ -29,7 +29,7 @@ now = pd.Timestamp(datetime.date.today())
 
 #set file path
 file_path = 'G:\My Drive\Formulario Abastecimiento\Abastecimiento.xlsm'
-file_path2 = 'G:\My Drive\Planos\Criterios.xlsx'
+file_path2 = 'G:\My Drive\Planos\Criterios.xlsx' 
 
 
 def readFiles(f1):  #That is if you can 
