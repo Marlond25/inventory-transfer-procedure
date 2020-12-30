@@ -27,7 +27,7 @@ class MsgWindow():
 	def popupMsg(self, msg): 
 		popup = tk.Tk() 
 
-		popup.wm_title("This window's porpouse is to make me look more masculine") # Handy title
+		popup.wm_title("This window's porpouse is to make me look more masculine") # Handy title 
 		label = ttk.Label(popup, text=msg, font=self.font) # This object calls the module tkinter and uses the metod Label() to define the msg structure.
 		label.pack(side="top", fill="x", padx=10, pady=20) 
 		button = ttk.Button(popup, text="Enought", command=popup.destroy) 
